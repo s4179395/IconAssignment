@@ -1,0 +1,68 @@
+<html>
+    <head>
+    <title>
+      
+            Digital Media Production Assignment 2
+    </title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/buzz/1.2.0/buzz.min.js"></script>
+</head>
+<body style="background-color: LightGoldenRodYellow;">
+    <h1>
+    
+    <div class="row">
+    <div class="image-container">
+    <img id="Icon1" src="img/Icon 1.svg" src="img/Icon1Hover.svg" onmouseover="this.src='img/Icon1Hover.svg';" onmouseout="this.src='img/Icon 1.svg';" onclick="this.src='img/Icon1Click.svg';" width="150" height="150"/>
+    <img id="Icon2" src="img/Icon 2.svg" src="img/Icon2Hover.svg" onmouseover="this.src='img/Icon2Hover.svg';" onmouseout="this.src='img/Icon 2.svg';" onclick="this.src='img/Icon2Click.svg';" width="150" height="150"/>
+    <img id="Icon3" src="img/Icon 3.svg" src="img/Icon3Hover.svg" onmouseover="this.src='img/Icon3Hover.svg';" onmouseout="this.src='img/Icon 3.svg';" onclick="this.src='img/Icon3Click.svg';" width="150" height="150"/>
+
+    
+
+    </div>
+    <div class="row">
+        <img id="Icon4" src="img/Icon 4.svg" src="img/Icon4Hover.svg" onmouseover="this.src='img/Icon4Hover.svg';" onmouseout="this.src='img/Icon 4.svg';" onclick="this.src='img/Icon4Click.svg';" width="150" height="150"/>
+        <img id="Icon5" src="img/Icon 5.svg" src="img/Icon5Hover.svg" onmouseover="this.src='img/Icon5Hover.svg';" onmouseout="this.src='img/Icon 5.svg';" onclick="this.src='img/Icon5Click.svg';" width="150" height="150"/>
+        <img id="Icon6" src="img/Icon 6.svg" src="img/Icon6Hover.svg" onmouseover="this.src='img/Icon6Hover.svg';" onmouseout="this.src='img/Icon 6.svg';" onclick="this.src='img/Icon6Click.svg';" width="150" height="150"/>
+    
+        </div>
+
+    </div>
+    <div class="row">
+        <img id="Icon7" src="img/Icon 7.svg" src="img/Icon7Hover.svg" onmouseover="this.src='img/Icon7Hover.svg';" onmouseout="this.src='img/Icon 7.svg';" onclick="this.src='img/Icon7Click.svg';" width="150" height="150"/>
+        <img id="Icon8" src="img/Icon 8.svg" src="img/Icon8Hover.svg" onmouseover="this.src='img/Icon8Hover.svg';" onmouseout="this.src='img/Icon 8.svg';" onclick="this.src='img/Icon8Click.svg';" width="150" height="150"/>
+        <img id="Icon9" src="img/Icon 9.svg" src="img/Icon9Hover.svg" onmouseover="this.src='img/Icon9Hover.svg';" onmouseout="this.src='img/Icon 9.svg';" onclick="this.src='img/Icon9Click.svg';" width="150" height="150"/>
+    
+        </div>
+
+    <script>
+        var sound1 = new buzz.sound("sound/Icon 1.wav");
+        var sound2 = new buzz.sound("sound/Icon 2.wav");
+        var sound3 = new buzz.sound("sound/Icon 3.wav");
+        var sound4 = new buzz.sound("sound/Icon 4.wav");
+        var sound5 = new buzz.sound("sound/Icon 5.wav");
+        var sound6 = new buzz.sound("sound/Icon 6.wav");
+        var sound7 = new buzz.sound("sound/Icon 7.wav");
+        var sound8 = new buzz.sound("sound/Icon 8.wav");
+        var sound9 = new buzz.sound("sound/Icon 9.wav");
+
+        
+
+        window.onload = function() 
+        {
+            document.getElementById('Icon1').addEventListener('click', function () {sound1.play(); });
+            document.getElementById('Icon2').addEventListener('click', function () {sound2.play(); });
+            document.getElementById('Icon3').addEventListener('click', function () {sound3.play(); });
+            document.getElementById('Icon4').addEventListener('click', function () {sound4.play(); });
+            document.getElementById('Icon5').addEventListener('click', function () {sound5.play(); });
+            document.getElementById('Icon6').addEventListener('click', function () {sound6.play(); });
+            document.getElementById('Icon7').addEventListener('click', function () {sound7.play(); });
+            document.getElementById('Icon8').addEventListener('click', function () {sound8.play(); });
+            document.getElementById('Icon9').addEventListener('click', function () {sound9.play(); });
+        
+       
+       
+        }
+    </script>
+
+    
+</body>
+</html>
